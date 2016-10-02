@@ -85,6 +85,18 @@ END
 FROM employees x LEFT OUTER JOIN employee_hire_date y on (x.emp_no = y.emp_no)
 LIMIT 10;
 ```
+````
+10001	1953-09-02	Georgi	Facello	M	1986-06-26
+10002	1964-06-02	Bezalel	Simmel	F	1996-08-03
+10003	1959-12-03	Parto	Bamford	M	1995-12-03
+10004	1954-05-01	Chirstian	Koblick	M	1986-12-01
+10005	1955-01-21	Kyoichi	Maliniak	M	1989-09-12
+10006	1953-04-20	Anneke	Preusig	F	1990-08-05
+10007	1957-05-23	Tzvetan	Zielinski	F	1989-02-10
+10008	1958-02-19	Saniya	Kalloufi	M	1998-03-11
+10009	1952-04-19	Sumant	Peac	F	1985-02-18
+10010	1963-06-01	Duangkaew	Piveteau	F	1996-11-24
+````
 
 ##### g.Determine which employee lasted less than two weeks in the job in May 1985?
 
